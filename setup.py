@@ -40,6 +40,7 @@ setup(
     version=VERSION,
     description="Common dependency for inaSpeechSegmenter API and client.",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     author="Andrey Danilov",
     author_email="danand@inbox.ru",
     url="https://github.com/Danand/inaSpeechSegmenter-api-models/",
