@@ -1,4 +1,4 @@
-from inaSpeechSegmenter.api_models.segment_item import SegmentItem
+from inaSpeechSegmenter_api_models.segment_item import SegmentItem
 
 from typing import List
 

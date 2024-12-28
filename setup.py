@@ -1,4 +1,4 @@
-from inaSpeechSegmenter.api_models import VERSION
+from inaSpeechSegmenter_api_models import VERSION
 
 from setuptools import find_packages, setup
 

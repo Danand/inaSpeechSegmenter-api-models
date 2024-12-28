@@ -1,4 +1,4 @@
-from inaSpeechSegmenter.api_models.request_base import SegmenterRequestBase
+from inaSpeechSegmenter_api_models.request_base import SegmenterRequestBase
 
 class GetSegmentsRequest(SegmenterRequestBase):
     filename: str
