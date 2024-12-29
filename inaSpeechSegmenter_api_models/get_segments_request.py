@@ -6,4 +6,4 @@ class GetSegmentsRequest(SegmenterRequestBase):
 
     @classmethod
     def get_endpoint(cls) -> str:
-        return "get_segments"
+        return "/get_segments"

@@ -15,6 +15,24 @@ For more information about the original `inaSpeechSegmenter`, visit the [`inaSpe
 - **Tool Integration**: Available as a Python package and Docker image.
 - **Open Source Recognition**: Achieved top ranks in VAD challenges and used in gender representation studies.
 
+## Installing
+
+```bash
+pip install inaSpeechSegmenter-api-models
+```
+
+## Usage
+
+```python
+from inaSpeechSegmenter_api_models import (
+    GetSegmentsResponse,
+    GetSegmentsRequest,
+    SegmentItem,
+)
+
+# Then use imported types in type hints.
+```
+
 ## Citing
 
 `inaSpeechSegmenter` has been presented at the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018 conference in Calgary, Canada. If you use this toolbox in your research, you can cite the following work in your publications:
